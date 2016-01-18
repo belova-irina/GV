@@ -1,0 +1,16 @@
+@media (min-width: 1200px) {
+  .promo__tabs {
+    height: 429px;
+    background-image: url(../img/banner.jpg);
+  }
+  .promo__text h1 {
+    margin-top: 90px;
+    margin-bottom: 23px;
+    display: inline-block;
+    background-color: #fff;
+  }
+  .promo__text p {
+    display: inline-block;
+    background-color: #fff;
+  }
+}
