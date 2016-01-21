@@ -1984,7 +1984,7 @@ blockquote.pull-right {
     margin: 0 auto;
   }
   .hotel {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .slideshow {
     display: block;
@@ -2063,7 +2063,6 @@ blockquote.pull-right {
     color: #fff;
     background-color: #0ab89d;
     border: 2px solid #fff;
-    margin-top: 15px;
   }
   .tabs {
     margin-top: 18px;
@@ -2085,6 +2084,7 @@ blockquote.pull-right {
   h2 {
     margin: 40px auto;
     font-size: 26px;
+    font-weight: normal;
   }
   h2.white {
     padding-top: 40px;
@@ -2102,7 +2102,7 @@ blockquote.pull-right {
     background-color: #fff;
     display: inline-block;
     position: relative;
-    margin: 30px 0;
+    margin: 40px 0;
   }
   .recall__foto {
     position: absolute;
@@ -2124,6 +2124,9 @@ blockquote.pull-right {
   .recall__date span {
     display: block;
   }
+  .recall h2 {
+    padding-top: 0;
+  }
   .action__img {
     height: 300px;
     background-image: url(../img/action-xs.jpg);
@@ -2140,15 +2143,20 @@ blockquote.pull-right {
     width: 295px;
     padding: 20px;
   }
+  h1 {
+    font-weight: normal;
+  }
   h3 {
     padding: 0 0 5px 0;
     margin: 0;
     color: #ff7435;
     font-size: 18px;
     text-transform: uppercase;
+    font-weight: normal;
   }
   .tpansport {
     margin-top: 40px;
+    margin-bottom: 30px;
   }
   .variant {
     display: inline-block;
@@ -2191,6 +2199,10 @@ blockquote.pull-right {
   .action .container {
     width: 100%;
   }
+  .tpansport {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
   .variant {
     display: inline-block;
     max-width: 580px;
@@ -2226,6 +2238,13 @@ blockquote.pull-right {
   .miniature img {
     display: none;
   }
+  .recall h2 {
+    margin-top: 40px;
+    color: #fff;
+  }
+  .recall__block.block2 {
+    margin-bottom: 20px;
+  }
 }
 @media (min-width: 768px) {
   .promo__tabs {
@@ -2251,10 +2270,6 @@ blockquote.pull-right {
   .recall {
     height: 892px;
     background-image: url(../img/recall-md.jpg);
-  }
-  .recall h2 {
-    margin-top: 0;
-    color: #fff;
   }
   .recall__block {
     width: 480px;
@@ -2419,8 +2434,8 @@ blockquote.pull-right {
     background-image: url(../img/recall.jpg);
   }
   .recall h2 {
-    padding-top: 50px;
     color: #fff;
+    padding-top: 10px;
   }
   .recall__block {
     width: 480px;
@@ -2432,5 +2447,8 @@ blockquote.pull-right {
   }
   .block1 {
     margin-right: 20px;
+  }
+  .recall__block.block2 {
+    margin-bottom: 25px;
   }
 }
